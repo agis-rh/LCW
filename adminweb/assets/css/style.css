@@ -1,0 +1,128 @@
+@import url("umum.css");
+@import url("paging_halaman.css");
+@import url("form.css");
+@import url("buttons.css");
+@import url("konten.css");
+@import url("tabel.css");
+@import url("menu_nav.css");
+@import url("box.css");
+
+.blue {
+	background-color: #2069b4;
+	color: white;
+}
+	.blue:hover {
+		background-color: #5081b3;
+		color: white;
+	}
+        .foto-profil {
+            width: 250px;
+            height: 250px;
+            border-radius: 5px;
+            border:5px solid #e0e0e0;
+        }
+
+/* ---------- WIDTHS ---------- */
+/* Form Inputs Style */
+.default-width-input { width: 55%; /* Default Value. Equals 250px for the 12px font size */ }	
+
+.full-width-input { width: 95%; }
+
+/* Textarea Style */
+.full-width-textarea {
+	width: 60%;
+	height: 12.5em; /* 150/12 */
+}
+
+/* Page Container Style */
+.page-full-width { padding: 0 1.875em; /* 30/16 */ }
+
+.page-limited {
+	width: 60em; /* 960/16 */
+	margin: 0 auto;
+}
+
+
+
+
+
+/* ---------- TOP + HEADER ---------- */
+div#top-bar {
+	background-color: #2a2e36;
+	padding: 0.625em 0; /* 10/16 */
+}
+
+div#header { padding: 1.25em 0; /* 20/16 */ }
+
+div#header-with-tabs { padding: 1.25em 0 0 0; /* 20/16 */ }
+
+div#login-intro {
+	background: transparent url('../images/login-icon.png') no-repeat left center;
+	padding: 0.312em 0 0.312em 3.125em;
+}
+	div#login-intro h1 { text-transform: uppercase; margin: 0.312em 0 0 0; }
+	div#login-intro h5 { color: #9498a1; }
+
+
+/* ---------- TABS ---------- */
+ul#tabs { list-style-type: none; }
+
+	ul#tabs li { float: left; }
+	
+		ul#tabs li a {
+			border: 1px solid #eeefef;
+			border-bottom: none;
+			padding: 1.666em 0.833em; /* 20/12 10/12 */
+			margin: 0 0.416em -1px 0;
+			display: block;
+			color: #9498a1;
+		}
+			ul#tabs li a:hover { color: #2a2e36; }
+
+ul#tabs li a.dashboard-tab {
+	background: transparent url('../images/tab-dashboard.png') no-repeat 0.833em center /* 10/12 */;
+	padding-left: 3em; /* 36/12 */	
+}
+
+ul#tabs li a.active-tab, ul#tabs li a.active-tab:hover {
+	background-color: #f8f9fa;
+	font-weight: bold;
+	color: #999;
+}
+
+
+
+
+/* ---------- LISTS ---------- */
+ol li, .regular-ul li { margin-left: 1.25em; /* 20/16 */ }
+
+ol, .regular-ul, .custom-ul { margin-bottom: 1.25em; /* 20/16 */ }
+
+.custom-ul { list-style-type: none; }
+
+	.custom-ul li {
+		background: transparent url('../images/menu-dark-indicator.png') no-repeat left center;
+		padding-left: 1.25em /* 10/12 */;
+	}
+
+
+
+
+
+/* ---------- FOOTER ---------- */
+div#footer {
+	text-align: center;
+	padding: 1.875em 0; /* 30/16 */
+}
+
+
+#loading {
+position:fixed;
+top: 0; 
+width:100%; 
+text-align:center; 
+color: #fff; 
+background-image:url(../images/spotlight-bg.png);
+padding:15px 0px 15px 0px;
+font-size:12px;
+}

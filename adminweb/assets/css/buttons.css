@@ -1,0 +1,84 @@
+/* 
+    Created on : 05 Jan 15, 15:29:42
+    Author     : Admin
+*/
+
+
+
+/* ---------- BUTTONS ---------- */
+.button {
+	padding: 0.833em; /* 10/12 */
+	
+	display: inline-block;
+	text-decoration: none;
+	background-repeat: no-repeat;
+
+}
+
+.dark {
+	background-color: #3f4551;
+	color: white;
+}
+	.dark:hover {
+		background-color: #5d6677;
+		color: white;
+	}
+
+.text-upper { text-transform: uppercase; }
+
+.small-button { padding: 0.312em 1em; /* 5/16 16/16 */ }
+
+.image-left {
+	background-position: 0.833em center; /* 10/12 */
+	padding-left: 3em; /* 36/12 */
+}
+
+.image-right {
+	background-position: right center;
+	padding-right: 3em; /* 36/12 */
+}
+
+.ic-left-arrow { background-image: url("../images/icons/ic_left.png"); }
+.ic-right-arrow { background-image: url("../images/icons/ic_right.png"); }
+.ic-print { background-image: url("../images/icons/ic_print.png"); }
+.ic-cancel { background-image: url("../images/icons/ic_cancel.png"); }
+.ic-delete { background-image: url("../images/icons/ic_delete.png"); }
+.ic-add { background-image: url("../images/icons/ic_add.png"); }
+.ic-download { background-image: url("../images/icons/ic_download.png"); }
+.ic-edit { background-image: url("../images/icons/ic_edit.png"); }
+.ic-favorite { background-image: url("../images/icons/ic_favorite.png"); }
+.ic-lock { background-image: url("../images/icons/ic_lock.png"); }
+.ic-power { background-image: url("../images/icons/ic_power.png"); }
+.ic-refresh { background-image: url("../images/icons/ic_refresh.png"); }
+.ic-settings { background-image: url("../images/icons/ic_settings.png"); }
+.ic-upload { background-image: url("../images/icons/ic_upload.png"); }
+.ic-search { background-image: url("../images/icons/ic_zoom.png"); }
+
+.ic-table-edit { background-image: url("../images/icons/table/actions-edit.png"); }
+.ic-table-delete { background-image: url("../images/icons/table/actions-delete.png"); }
+
+
+
+
+
+/* ---------- MENU BUTTONS ---------- */
+.menu-email { background-image: url("../images/icons/menu/menu-email.png"); }
+	.menu-email:hover { background-image: url("../images/icons/menu/menu-email-over.png"); }
+	.menu-email-special {
+		background-image: url("../images/icons/menu/menu-email-special.png");
+		color: #7fcdff;
+	}
+	
+.menu-settings { background-image: url("../images/icons/menu/menu-settings.png"); }
+	.menu-settings:hover { background-image: url("../images/icons/menu/menu-settings-over.png"); }
+
+.menu-logoff { background-image: url("../images/icons/menu/menu-logoff.png"); }
+	.menu-logoff:hover { background-image: url("../images/icons/menu/menu-logoff-over.png"); }
+
+.menu-user { background-image: url("../images/icons/menu/menu-user.png"); }
+
+
+
+
+
+

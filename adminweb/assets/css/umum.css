@@ -1,0 +1,190 @@
+/*
+*****************************************************************************
+*/
+/* 
+    Created on : 05 Jan 15, 15:19:00
+    Author     : Admin
+*/
+
+
+/* For modern browsers */
+
+::-webkit-scrollbar {
+            width: 10px;
+            height: 12px;
+        }
+        ::-webkit-scrollbar-thumb {
+          border-radius: 2em;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+          background-color: #999;
+        }
+        ::-webkit-scrollbar-track {
+          border-radius: 1em;
+          background: transparent;
+        }
+        ::-webkit-scrollbar-track:hover {
+          background: rgba(110, 110, 110, 0.25);
+        }
+        
+        #load {
+	    position: fixed;
+	    left: 0px;
+	    top: 0px;
+	    width: 100%;
+            font-size:18px;
+            font-weight:bold;
+            padding-left:10px;
+            color:#CCC;
+            padding-top:10px;
+	    height: 100%;
+	    z-index: 9999;
+	    background: url(../images/loader6.gif) 50%50% no-repeat #fff;
+	}
+.cf:before,
+.cf:after {
+    content: "";
+    display: table;
+}
+
+.cf:after { clear:both; }
+
+/* For IE 6/7 (trigger hasLayout) */
+.cf { zoom: 1; }
+
+
+/* ---------- COLORS ---------- */
+a { color: #2069b4; }
+	a:hover { color: #2a2e36; }
+
+p a, p a:hover { border-bottom: 1px dotted; }
+.round {
+	border-radius: 0.3125em; /* 5/16 */
+	-moz-border-radius: 0.3125em; /* 5/16 */
+	-webkit-border-radius: 0.3125em; /* 5/16 */
+}
+
+p {
+	margin-bottom: 1.25em; /* 20/16 */
+	color: #9498a1;
+}
+
+.fl { float: left; }
+.fr { float: right; }
+.cb { clear: both; }
+
+.half-size-column {
+	width: 48%;
+}
+
+div.stripe-separator {
+	background: transparent url('../images/separator-bg.png') repeat-x left center;
+	height: 0.562em; /* 9/16 */
+	display: block;
+	margin: 1.25em 0; /* 20/16 */
+}
+
+h1, h2, h3, h4, h5, h6 { margin-bottom: 0.625em; /* 10/16 */ }
+
+/*Temporary styles*/
+ul.temporary-button-showcase {
+	list-style-type: none;
+}
+
+	ul.temporary-button-showcase li {
+		width: 24%;
+		float: left;
+		margin-bottom: 1em;
+	}
+
+code {
+	display: inline-block;
+	background-color: #f8f9fa;
+	border: 1px solid #eeefef;
+	padding: 0.416em 0.833em; /* 5/12 10/12 */
+	color: #2a2e36;
+}
+
+blockquote {
+	display: block;
+	font-style: italic;
+	border-left: 2px solid #eeefef;
+	padding-left: 0.833em; /* 10/12 */
+	color: #9498a1;
+}
+
+cite {
+	font-style: italic;
+	font-weight: bold;
+	display: block;
+	padding-left: 0.833em; /* 10/12 */
+	margin-top: 0.833em; /* 10/12 */
+	color: #9498a1;
+}
+
+
+
+
+*, html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, 
+h5, h6, pre, form, label, fieldset, input, p, blockquote, th, td {
+	margin: 0;
+	padding: 0;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+fieldset, img {	border: 0; }
+
+address, caption, cite, code, dfn, em, strong, th, var {
+	font-style: normal;
+	font-weight: normal;
+}
+
+caption, th { text-align: left; }
+
+h1, h2, h3, h4, h5, h6 { font-weight: normal; }
+
+q:before, q:after { content: ''; }
+
+strong { font-weight: bold; }
+
+em { font-style: italic; }
+
+a img {	border: none; } /* Gets rid of IE's blue borders */
+
+a { text-decoration: none; }
+
+body { font-size: 1em; /* Prevents an IE bug where em's scale out of proportion */ }
+
+
+body, form {
+	font-family: "Droid Sans", Helvetica, Arial, sans-serif;
+	line-height: 1.125em; /* 18/16 */
+}
+
+p, .button, form input, ul#nav li ul, ul#tabs, div.side-menu ul li a, table,
+.information-box, .confirmation-box, .error-box, .warning-box, ol, .regular-ul, 
+.custom-ul, blockquote, cite { font-size: 0.75em; /* 12/16 */ }
+
+div.content-module-heading span { font-size: 0.625em; /* 10/16 */ }
+
+form p input[type="text"], form p input[type="password"], form p input[type="checkbox"], form p input[type="radio"] { font-size: 1em; /* 12/12. I did 12 because they're contained within a P tag, that has font size of 12px*/ }
+
+h1 { font-size: 1.125em; /* 18/16 */ }
+h2 { font-size: 0.875em; /* 14/16 */ }
+h3 { font-size: 0.75em; /* 12/16 */ }
+h4 { font-size: 0.685em; /* 11/16 */ }
+h5 { font-size: 0.625em; /* 10/16 */ }
+
+
+
+
+
+body, form {
+	font-family: "Droid Sans", Helvetica, Arial, sans-serif;
+	line-height: 1.125em; /* 18/16 */
+}
+

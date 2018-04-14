@@ -1,0 +1,64 @@
+/* 
+    Created on : 05 Jan 15, 15:32:17
+    Author     : Admin
+*/
+
+/* ---------- TABLES ---------- */
+table { width: 100%; margin-bottom: 1.25em; /* 20/16 */ }
+
+	table th {
+            border-radius: 2px;
+		background-image: -webkit-linear-gradient(top, #f9f9f9 0%, #eeeeee 100%);
+                background-image: linear-gradient(to bottom, #f9f9f9 0%, #eeeeee 100%);
+                background-repeat: repeat-x;
+                -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+                box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+		color: #28a4c9;
+                font-weight: bold;
+		text-transform: uppercase;
+		padding: 1.25em 0 1.25em 1.25em; /* 15/12 */
+		border-left: 1px solid #f0f0f0;
+	}
+		
+	table tbody td {
+		padding: 0.833em 0 0.833em 1.25em; /* 10/12 15/12 */
+		border-left: 1px solid white;
+		border-bottom: 1px solid #f8f9fa;
+	}
+	
+	/* Alternate table row */
+	table tbody tr:nth-child(odd) { background-color: #f8f9fa; }
+
+	/* Push the first cell to the right so it doesn't stick to the table border */
+	table td:first-child, table th:first-child {
+		width: 4em /* 48/12 */;
+		text-align: center;
+		padding: 0;
+		border: none;
+		border-bottom: 1px solid #f8f9fa;
+	}
+	
+	table td:last-child, table th:last-child {
+		width: 7em; /* 84/12 */
+		text-align: center;
+		padding: 0;
+	}
+	
+	table td.table-footer {
+		text-align: left;
+		vertical-align: middle;
+		padding-top: 1.25em /* 15/12 */;
+		border: none;
+	}
+	
+a.table-actions-button {
+	width: 1.25em;
+	height: 1.25em;
+	display: inline-block;
+	background-position: center center;
+}
+
+
+
+
+

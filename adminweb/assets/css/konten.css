@@ -1,0 +1,82 @@
+/* 
+    Created on : 05 Jan 15, 15:30:59
+    Author     : Admin
+*/
+
+
+/* ---------- CONTENT ---------- */
+div#content {
+	background: #f8f9fa url('../images/artwork-pattern.png') repeat-x left bottom;
+	border: 1px solid #eeefef;
+	padding: 1.875em 0; /* 30/16 */
+}
+
+form#login-form {
+	width: 18.75em; /* 300/16 */
+	margin: 0 auto;
+}
+
+div.side-menu {
+        background: #3f4551;
+        border-radius: 3px;
+	border: 1px solid #eeefef;
+	width: 20%;
+	margin-bottom: 1em; /* 16/16 */
+}
+
+	div.side-menu h3 {
+              	
+		text-transform: uppercase;
+		font-weight: bold;
+		margin:  1.25em; /* 15/12 */
+		color: white;
+	}
+	
+	div.side-menu ul { list-style-type: none; }
+	
+		div.side-menu ul li a {
+			padding: 0.833em 1.25em; /* 10/12 15/12 */
+			border-top: 1px solid #f8f9fa;
+			display: block;
+			background: white url('../images/menu-dark-indicator.png') no-repeat right center;
+		}
+			div.side-menu ul li a:hover {
+				background-color: #f8f9fa;
+			}
+
+div.side-content { width: 78%; /* 100% - 15% for the side menu - 2% for the left margin */ }
+
+div.content-module {
+	background: white;
+	margin-bottom: 1em; /* 16/16 */
+	border: 1px solid #eeefef;
+}
+
+div.content-module-heading {
+	background-image: -webkit-linear-gradient(top, #ffffff 0%, #f2f2f2 100%);
+  background-image: linear-gradient(to bottom, #ffffff 0%, #f2f2f2 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff2f2f2', GradientType=0);
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.155);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.155);
+
+}
+
+	div.content-module-heading h3 {
+            cursor: pointer;
+		text-transform: uppercase;
+		color: #28a4c9;
+		font-weight: bold;
+		margin: 1.25em; /* 15/12 */
+	}
+	
+	div.content-module-heading span { 
+		color: #969dac;
+		text-transform: uppercase;
+		margin: 1.5em; /* 15/10 */
+	}
+
+div.content-module-main { padding: 1em; /* 16/16 */ }
+
+
+

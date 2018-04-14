@@ -1,0 +1,204 @@
+/**********************************************/
+/************** Social Buttons ****************/
+/**********************************************/
+
+.social{
+	width:auto;
+	float:right;
+	height:46px;
+}
+
+.social ul{
+	width:auto;
+	float:right;
+	height:46px;
+	padding:0px;
+	margin:0px;
+}
+
+.social ul li{
+	width:46px;
+	float:left;
+	display:inline-block;
+	height:46px;
+	border: 1px solid #d5d5d5;
+	list-style-type: none;
+	background-color:white;
+	margin-left:-1px;
+}
+
+.socialfooter{
+	width:auto;
+	float:right;
+	height:46px;
+}
+
+.socialfooter ul{
+	width:auto;
+	float:right;
+	height:46px;
+	padding:0px;
+	margin:0px;
+}
+
+.socialfooter ul li{
+	width:46px;
+	float:left;
+	height:46px;
+	border-right: 1px solid #d5d5d5;
+	border-left: 1px solid #d5d5d5;
+	list-style-type: none;
+	background-color:white;
+	margin-left:-1px;
+}
+
+
+
+.socialfooter-1{
+	width:auto;
+	float:left;
+	height:46px;
+}
+
+.socialfooter-1 ul{
+	width:auto;
+	float:right;
+	height:46px;
+	padding:0px;
+	margin:0px;
+}
+
+.socialfooter-1 ul li{
+	width:46px;
+	float:left;
+	height:46px;
+	border-right: 1px solid #d5d5d5;
+	border-left: 1px solid #d5d5d5;
+	list-style-type: none;
+	background-color:white;
+	margin-left:-1px;
+}
+
+
+
+
+.social ul li a{
+	border:0px;
+}
+
+
+
+
+
+
+.social-google{
+	width:46px;
+	display:block;
+	height:46px;
+	background-image: url(../images/social-slider.png);
+	background-repeat: no-repeat;
+	background-position: -7px -1px;
+}
+
+.social-google:hover{
+	width:46px;
+	display:block;
+	height:46px;
+	background-image: url(../images/social-slider.png);
+	background-repeat: no-repeat;
+	background-position: -7px -47px;
+}
+
+.social-facebook{
+	width:46px;
+	display:block;
+	height:46px;
+	background-image: url(../images/social-slider.png);
+	background-repeat: no-repeat;
+	background-position: -53px -2px;
+}
+
+.social-facebook:hover{
+	width:46px;
+	display:block;
+	height:46px;
+	background-image: url(../images/social-slider.png);
+	background-repeat: no-repeat;
+	background-position: -53px -48px;
+}
+
+.social-twitter{
+	width:46px;
+	display:block;
+	height:46px;
+	background-image: url(../images/social-slider.png);
+	background-repeat: no-repeat;
+	background-position: -102px -2px;
+}
+
+.social-twitter:hover{
+	width:46px;
+	display:block;
+	height:46px;
+	background-image: url(../images/social-slider.png);
+	background-repeat: no-repeat;
+	background-position: -102px -48px;
+}
+
+
+.social-google-1{
+	width:46px;
+	display:block;
+	height:46px;
+	background-image: url(../images/social-slider.png);
+	background-repeat: no-repeat;
+	background-position: -7px -47px;
+}
+
+.social-google-1:hover{
+	width:46px;
+	display:block;
+	height:46px;
+	background-image: url(../images/social-slider.png);
+	background-repeat: no-repeat;
+        -webkit-transition: all 300s;
+        -webkit-transform: rotate(+360deg);
+        transform: rotate(+360deg);
+        
+	
+}
+
+.social-facebook-1{
+	width:46px;
+	display:block;
+	height:46px;
+	background-image: url(../images/social-slider.png);
+	background-repeat: no-repeat;
+	background-position: -53px -48px;
+}
+
+.social-facebook-1:hover{
+	width:46px;
+	display:block;
+	height:46px;
+	background-image: url(../images/social-slider.png);
+	background-repeat: no-repeat;
+	
+}
+
+.social-twitter-1{
+	width:46px;
+	display:block;
+	height:46px;
+	background-image: url(../images/social-slider.png);
+	background-repeat: no-repeat;
+        background-position: -102px -48px;
+}
+
+.social-twitter-1:hover{
+	width:46px;
+	display:block;
+	height:46px;
+	background-image: url(../images/social-slider.png);
+	background-repeat: no-repeat;
+}
